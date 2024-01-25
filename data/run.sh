@@ -39,7 +39,7 @@ fi
 cd /usr/src
 
 
-./frps -c $CONFIG_PATH & logger $log_file & WAIT_PIDS+=($!)
+./frps093 -c $CONFIG_PATH & logger $log_file & WAIT_PIDS+=($!)
 trap "stop_frps" SIGTERM SIGHUP
 
 # Wait and hold Add-on running

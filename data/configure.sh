@@ -43,7 +43,7 @@ function install() {
     ls -la /tmp/${file_dir}
     chmod +x /tmp/${file_dir}/*
     cp -f /tmp/${file_dir}/frpc ${app_path}/
-    cp -f /tmp/${file_dir}/frps ${app_path}/    
+    cp -f /tmp/${file_dir}/frps ${app_path}/frps093
     ls -la $app_path
 }
 
